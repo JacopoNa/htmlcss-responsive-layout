@@ -1,0 +1,50 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* common */
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    height: 80px;
+    background-color: #0084fd;
+    color: white;
+    padding: 0 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.start-list {
+    display: none;
+}
+
+/* desktop */
+@media screen and (min-width: 992px) {
+    .start-list {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+}
