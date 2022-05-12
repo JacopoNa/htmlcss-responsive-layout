@@ -118,6 +118,21 @@ main .space {
     margin-bottom: 2rem;
 }
 
+/* fifth section */
+ p {
+    border: 1px solid red;
+    margin: 2rem 0;
+ }
+
+ .image-person {
+     border: 1px solid red;
+ }
+
+ .about-person {
+     border: 1px solid red;
+ }
+
+
 
 
 /* tablet */
@@ -160,6 +175,21 @@ main .space {
 
     .box {
         width: calc(98% / 2);
+    }
+
+    /* fifth section */
+
+    .about-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-text{
+        width: calc(97% / 2);
+    }
+
+    .about-person {
+        width: calc(97% / 2);
     }
 
 }
