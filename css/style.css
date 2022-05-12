@@ -68,6 +68,57 @@ main .space {
     background-color: white;
 }
 
+.planning {
+    color: white;
+}
+
+.planning-text {
+    margin-top: 5rem;
+}
+
+.planning-image, .develop-image {
+    border: 1px solid red;
+}
+
+/*third section  */
+.testimonials {
+    text-align: center;
+}
+
+.testimonial {
+    border: 1px solid red;
+    background-color: #9792e4;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.testimonials h1 {
+    margin: 1.5rem 0;
+}
+
+.testimonials p {
+    margin-bottom: 1.5rem;
+}
+
+/* fourth section */
+
+.benefits {
+    background-color: #9792e4;
+}
+
+.benefits h1 {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid red;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -82,6 +133,33 @@ main .space {
 
     .top-left {
         width: calc((100% / 3) * 2);
+    }
+
+    /* third section media */
+
+    .testimonial {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-test {
+        width: 20%;
+    }
+
+    .text-test {
+        width: 80%;
+    }
+
+    /* fourth section */
+
+    .benefits-columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: calc(98% / 2);
     }
 
 }
@@ -116,6 +194,17 @@ main .space {
 
     .developement, .planning {
         width: calc(100% / 2);
+    }
+
+    /* fourth section */
+    .benefits-columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: calc(97% / 3);
     }
 
 }
