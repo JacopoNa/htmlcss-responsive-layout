@@ -15,7 +15,11 @@
     margin: 0 auto;
 }
 
-/* header */
+.space {
+    padding: 0 2rem;
+}
+
+/* HEADER */
 header {
     height: 80px;
     background-color: #0084fd;
@@ -34,8 +38,46 @@ nav {
     display: none;
 }
 
+/* MAIN */
+
+/* first section */
+.col {
+    background-color: aliceblue;
+    border: 1px solid red;
+}
+
+main .space {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.card {
+    margin: 10px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+    } 
+
+    .col {
+        width: calc(100% / 3);
+    }
+
+    .top-left {
+        width: calc((100% / 3) * 2);
+    }
+
+}
+
+
+
+
 /* desktop */
 @media screen and (min-width: 992px) {
+
+    /* header media */
     .start-list {
         display: block;
     }
@@ -45,6 +87,8 @@ nav {
     }
 
     header {
-        padding: 0;
+      padding: 0; 
     }
+
+
 }
