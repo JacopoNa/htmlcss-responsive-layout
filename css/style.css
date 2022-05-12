@@ -55,8 +55,23 @@ main .space {
     margin: 10px;
 }
 
+/* second section */
+.planning, .developement {
+    border: 1px solid red;
+}
+
+.strategy {
+    background-color: #9792e4;
+}
+
+.developement {
+    background-color: white;
+}
+
+
 /* tablet */
 @media screen and (min-width: 768px) {
+    /* first section media */
     .row {
         display: flex;
     } 
@@ -90,5 +105,17 @@ main .space {
       padding: 0; 
     }
 
+    /* second section media */
+
+    .strategy-container {
+        display: flex;
+        align-items: flex-end;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .developement, .planning {
+        width: calc(100% / 2);
+    }
 
 }
