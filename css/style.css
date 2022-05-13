@@ -19,6 +19,11 @@
     padding: 0 2rem;
 }
 
+.btn {
+    padding: 8px;
+    border-radius: 30px;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -36,7 +41,25 @@ nav {
 
 .start-list {
     display: none;
+    width: 45%;
 }
+
+.burger {
+    font-size: 25px;
+}
+
+.start-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    color: black;
+    background-color: white;
+}
+
 
 /* MAIN */
 
