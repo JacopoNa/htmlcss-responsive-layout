@@ -33,6 +33,10 @@ img {
     text-align: center;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -127,9 +131,6 @@ main .space {
 
 
 /* second section */
-.planning, .developement {
-    border: 1px solid red;
-}
 
 .strategy {
     background-color: #9792e4;
@@ -137,19 +138,43 @@ main .space {
 
 .developement {
     background-color: white;
+    border-radius: 50px;
 }
 
 .planning {
     color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
 }
 
 .planning-text {
     margin-top: 5rem;
 }
 
-.planning-image, .develop-image {
-    border: 1px solid red;
+.planning-text p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+
+.develop-text i {
+    color: black;
+    font-size: 20px;
+    background-color: #9792e4;
+    padding: 15px;
+    border-radius: 50%;
+    line-height: 1rem;
+}
+
+.develop-text p {
+    font-style: italic;
+    line-height: 27px;
+}
+
+.develop-text h4 {
+    font-size: 25px;
+}
+
 
 /*third section  */
 .testimonials {
@@ -330,7 +355,6 @@ footer p {
     /* second section media */
     .strategy-container {
         display: flex;
-        align-items: flex-end;
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -338,6 +362,7 @@ footer p {
     .developement, .planning {
         width: calc(100% / 2);
     }
+
 
     /* fourth section media */
     .benefits-columns {
