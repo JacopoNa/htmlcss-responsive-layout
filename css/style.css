@@ -182,18 +182,48 @@ main .space {
 }
 
 .testimonial {
-    border: 1px solid red;
+    border-radius: 50px;
     background-color: #9792e4;
     color: white;
     margin-bottom: 2rem;
+    padding-top: 0.5rem;
 }
 
 .testimonials h2 {
     margin: 1.5rem 0;
+    color: #9792e4;
 }
 
 .testimonials p {
-    margin-bottom: 1.5rem;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.image-test {
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.image-test img {
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.text-test {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;   
+}
+
+.text-test div {
+    padding-top: 1rem;
+    font-size: 18px;
 }
 
 /* fourth section */
@@ -281,12 +311,13 @@ footer p {
         justify-content: space-between;
     }
 
-    .image-test {
-        width: 20%;
-    }
-
     .text-test {
         width: 80%;
+        margin: auto;
+    }
+
+    .text-test div {
+        display: flex;
     }
 
     /* fourth section media */
