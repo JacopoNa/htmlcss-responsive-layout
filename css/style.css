@@ -235,13 +235,38 @@ main .space {
 .benefits h2 {
     text-align: center;
     color: white;
+    padding: 2rem 0;
 }
 
 .box {
     background-color: white;
-    border: 1px solid red;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 25px;
+}
+
+.box h3 {
+    font-size: 40px;
+    padding-bottom: 1rem;
+    color: #9792e4;
+}
+
+.box h4 {
+    font-size: 23px;
+    padding-bottom: 1rem;
+    color: #9792e4;
+}
+
+.box p {
+    padding-bottom: 2rem;
+    color: #5d7284;
+    line-height: 1.5rem;
+}
+
+.box .btn {
+    color: white;
+    background-color: #9792e4;
+    padding: 10px 50px;
 }
 
 /* fifth section */
