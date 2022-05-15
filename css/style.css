@@ -68,7 +68,7 @@ nav {
     align-items: center;
 }
 
-li:last-child {
+header li:last-child {
     color: black;
     background-color: white;
 }
@@ -324,6 +324,57 @@ main .space {
      color: white;
      background-color: #9792e4;
  }
+
+ .start div {
+     color: #d2d1f3;
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+ }
+
+ .start h3 {
+     font-size: 30px;
+ }
+
+ .start h2 {
+     font-size: 50px;
+     color: #fdc15f;
+     margin: 2rem 0;
+ }
+
+ .start p {
+     margin-bottom: 3rem;
+ }
+
+ .start .btn {
+     background-color: white;
+     color: #9792e4;
+     font-size: 19px;
+    padding: 15px 60px;
+ }
+
+ .start .copyright {
+     margin-top: 3rem;
+ }
+ 
+ .copyright ul {
+     display: flex;
+     justify-content: center;
+     color: white;
+     font-size: 14px;
+ }
+
+ .copyright li {
+     margin-right: 21px;
+ }
+
+ .copyright li:first-child {
+     list-style-type: none;
+ }
+
+ .copyright li a {
+    color: white;
+}
+
 
 /* footer */
 
