@@ -271,17 +271,52 @@ main .space {
 
 /* fifth section */
  .about-container p {
-    border: 1px solid red;
     margin: 2rem 0;
+    font-size: 17px;
+    line-height: 2rem;
  }
 
  .image-person {
-     border: 1px solid red;
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+ }
+
+ .image-person > i {
+     position: absolute;
+     top: 0;
+     left: 115px;
+     font-size: 55px;
+     color: #9792e4;
+ }
+
+ .image-person img {
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
  }
 
  .about-person {
-     border: 1px solid red;
+     position: relative;
  }
+
+ .about-text h2 {
+     color: #9792e4;
+     padding-top: 2rem;
+ }
+
+ .about-person h3 {
+     font-size: 25px;
+     padding: 1.5rem 0;
+     color: #9792e4;
+ }
+
+ .about-person .btn {
+     color: white;
+     background-color: #9792e4;
+ }
+
 
  /* sixth section */
  .start {
@@ -365,11 +400,16 @@ footer p {
     }
 
     .about-text{
-        width: calc(97% / 2);
+        width: calc(95% / 2);
     }
 
     .about-person {
-        width: calc(97% / 2);
+        width: calc(95% / 2);
+        padding-left: 85px;
+    }
+
+    .image-person i {
+        left: 190px;
     }
 
     /* sixth section media */
